@@ -26,7 +26,7 @@ export const Feature = ({
                return () => {
                 window.removeEventListener('mousemove', updateMousePosition);
                }
-        }, []);
+        }, [offsetX, offsetY]);
     return (
          <div 
    
